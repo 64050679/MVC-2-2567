@@ -1,0 +1,70 @@
+[
+  {
+    "ContainingType": "MVC_Backend_64050679.Controllers.DriverController",
+    "Method": "GetDriverByLicenseNumber",
+    "RelativePath": "api/Driver/driver-details/{licenseNumber}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "licenseNumber",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MVC_Backend_64050679.Models.Driver",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MVC_Backend_64050679.Controllers.DriverController",
+    "Method": "GetDriverStatistics",
+    "RelativePath": "api/Driver/driver-statistics",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MVC_Backend_64050679.Controllers.DriverController",
+    "Method": "UpdateDriverType",
+    "RelativePath": "api/Driver/update-driver-type",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MVC_Backend_64050679.DTOS.UpdateTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MVC_Backend_64050679.Controllers.DriverController",
+    "Method": "UpdateLicenseStatus",
+    "RelativePath": "api/Driver/update-license-status",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MVC_Backend_64050679.DTOS.UpdateStatusDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
